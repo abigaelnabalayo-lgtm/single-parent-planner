@@ -62,5 +62,26 @@ Start the habit tracker from the project root with:
 ```bash
 python main.py
 ```
+## Analytics
 
+The application provides analytics commands to evaluate habit streaks.
 
+### List streaks for all habits
+
+Command:
+python3 main.py analytics list-all
+
+Example output:
+[1] Track one expense (daily) – longest streak: 28
+[2] Check or do learning activity with child (daily) – longest streak: 28
+[3] Self-study ≥ 30 minutes (daily) – longest streak: 28
+[4] Save €20 (weekly) – longest streak: 4
+[5] Outdoor activity with child (weekly) – longest streak: 4
+
+### Show longest streak overall
+
+Command:
+python3 main.py analytics longest-streak
+
+Example output:
+Longest streak overall: 28 (Track one expense)
