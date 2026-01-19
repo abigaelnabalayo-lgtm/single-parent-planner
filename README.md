@@ -85,3 +85,10 @@ python3 main.py analytics longest-streak
 
 Example output:
 Longest streak overall: 28 (Track one expense)
+## Tests
+The analytics functionality is covered by automated tests using pytest.
+Command:
+```bash
+pytest
+
+
