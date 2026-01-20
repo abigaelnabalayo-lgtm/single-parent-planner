@@ -86,9 +86,14 @@ python3 main.py analytics longest-streak
 Example output:
 Longest streak overall: 28 (Track one expense)
 ## Tests
-The analytics functionality is covered by automated tests using pytest.
-Command:
-```bash
+
+Basic unit tests are implemented using `pytest` to validate the analytics functionality.
+
+To run the tests, execute the following command from the project root:
+
 pytest
+
+Example result:
+4 tests passed successfully.
 
 
