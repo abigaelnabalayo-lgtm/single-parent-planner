@@ -46,7 +46,7 @@ Install dependencies from `requirements.txt` (currently only `pytest`).
    git clone https://github.com/abigaelnabalayo-lgtm/single-parent-planner.git
    cd single-parent-planner
    ```
-   2. Create and activate a virtual environment:
+2. Create and activate a virtual environment:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -81,7 +81,7 @@ Example output:
 ### Show longest streak overall
 
 Command:
-python3 main.py analytics longest-streak
+python main.py analytics longest-streak
 
 Example output:
 Longest streak overall: 28 (Track one expense)
